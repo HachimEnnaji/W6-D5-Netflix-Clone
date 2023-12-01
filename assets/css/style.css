@@ -1,0 +1,18 @@
+.shrink {
+  flex-shrink: 4;
+}
+.letter {
+  letter-spacing: 2px;
+  border-radius: 2px;
+}
+.principle {
+  max-width: 500px;
+}
+img:not(picture img) {
+  cursor: pointer;
+  border-radius: 2px;
+}
+img:hover:not(picture img) {
+  transform: scale(1.5);
+  transition: 800ms;
+}
